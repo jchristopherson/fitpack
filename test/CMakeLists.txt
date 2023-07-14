@@ -1,10 +1,10 @@
 include("${PROJECT_SOURCE_DIR}/cmake/helper.cmake")
 
 set(fitpack_test_sources
-    fitpack_curve_tests.f90
-    fitpack_test_data.f90.f90
-    fitpack_tests.f90
     test.f90
+    fitpack_curve_tests.f90
+    fitpack_test_data.f90
+    fitpack_tests.f90
 )
 
 add_executable(fitpack_tests ${fitpack_test_sources})
