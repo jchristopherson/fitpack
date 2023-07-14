@@ -1,0 +1,10 @@
+prefix = @CMAKE_INSTALL_PREFIX@
+libdir = ${prefix}/@CMAKE_INSTALL_FULL_LIBDIR@
+includedir = ${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: @PROJECT_NAME@
+Description: FITPACK is a Modern Fortran translation of the FITPACK package for curve and surface fitting. The functions are modernized and translated from the original Fortran77 code FITPACK by Paul Dierckx.
+Version: @PROJECT_VERSION@
+URL: https://github.com/jchristopherson/fitpack
+Libs: -L${libdir} -l@PROJECT_NAME@
+Cflags: -I${includedir}
