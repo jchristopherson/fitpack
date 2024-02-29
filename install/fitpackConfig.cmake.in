@@ -1,3 +1,0 @@
-if (NOT TARGET fitpack)
-    include("${CMAKE_CURRENT_LIST_DIR}/fitpackTargets.cmake")
-endif()
